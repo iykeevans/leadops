@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeadOps</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .navigation {
+        height: 77px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .hero {
+        background-image: url("./assets/images/home/edward-howell-bg-img.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+
+      .hero__search {
+        height: 50px;
+      }
+
+      .hero__locator-pin {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
+      .hero__search-input {
+        width: 500px;
+      }
+
+      .hero__search-btn-image {
+        height: 80%;
+        width: 80%;
+      }
+
+      .hero__credits {
+        bottom: 30px;
+        left: 9%;
+      }
+
+      .opportunity__box {
+        font-size: 20px;
+      }
+
+      .social-icons__icon {
+        height: 32px;
+      }
+
+      .newsletter__form-element {
+        height: 46px;
+      }
+
+      .newsletter__form-element-input {
+        width: 400px;
+        border: 1px solid #eee;
+      }
+
+      .footer {
+        background-color: #191919;
+      }
+
+      .footer__logo {
+        height: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- navigation -->
+      <nav class="navigation fixed-top navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </a>
+
+          <div class="text-sm">
+            <a href="./about.html" class="px-3 text-white">About</a>
+
+            <a href="./opportunities.html" class="px-3 text-white"
+              >Browse Opportunities</a
+            >
+
+            <a href="./newOpportunity.html" class="px-3 text-white"
+              >Share an Opportunity</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section
+        class="hero text-white d-flex flex-column align-items-center justify-content-center position-relative"
+      >
+        <h1 class="display-4 font-weight-bold mb-3">Ready to Serve?</h1>
+
+        <div class="d-flex">
+          <input
+            type="text"
+            placeholder="Search..."
+            class="hero__search hero__search-input px-4"
+          />
+          <button class="hero__search bg-leadops-primary px-4">
+            <img
+              src="./assets/images/search.svg"
+              alt=""
+              class="hero__search-btn-image"
+            />
+          </button>
+        </div>
+
+        <button
+          class="hero__locator-pin text-white font-weight-medium d-flex align-items-center mt-3 px-3 py-2"
+        >
+          <img
+            src="./assets/images/home/location-pin.svg"
+            class="mr-3"
+            alt="location-pin"
+          />
+          Use my location
+        </button>
+
+        <small class="hero__credits text-xs position-absolute"
+          >Photo by Edward Howell on Unsplash</small
+        >
+      </section>
+
+      <!-- CTA section -->
+      <section class="bg-leadops-primary py-5">
+        <div class="container d-flex flex-column">
+          <p class="text-4xl text-white mb-3 font-weight-medium">
+            We are changing the future of social leadership one step at a time
+            by connecting potential leaders to opportunities to serve and impact
+            the society around them.
+          </p>
+
+          <a
+            href="./about.html"
+            class="text-reset align-self-start d-flex align-items-center font-weight-medium"
+          >
+            Learn more about Leadops
+
+            <img
+              src="./assets/images/arrow.svg"
+              alt="right-arrow"
+              class="ml-2"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- opportunities section -->
+      <section class="opportunity">
+        <div class="container py-5">
+          <h2 class="text-2xl text-center mb-5 font-weight-bold">
+            You may be interested in these opportunities.
+          </h2>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div>
+                <img
+                  src="./assets/images/home/dummy-card-image.png"
+                  alt="dummy-card-image"
+                  class="w-100"
+                />
+
+                <h2 class="opportunity__box mt-3 font-weight-bold leading-8">
+                  Call for Applications: Expanding the Beijing+25 Youth Task
+                  Force
+                </h2>
+
+                <p class="leading-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="./blog.html" class="text-reset"> Read more... </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5">
+            <button
+              class="cta__btn d-flex align-items-center"
+              style="background: transparent; font-weight: 500"
+            >
+              Browse more opportunities
+
+              <img
+                src="./assets/images/arrow.svg"
+                alt="right-arrow"
+                class="ml-2"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog sections -->
+      <section>
+        <div class="container">
+          <h2 class="text-2xl text-center font-weight-bold mb-5">Our Blog</h2>
+
+          <div class="row">
+            <div class="col-sm">
+              <img src="./assets/images/home/dummy-blog-image.png" alt="" />
+            </div>
+
+            <div class="col-sm d-flex flex-column justify-content-center">
+              <h2 class="font-weight-bold leading-8" style="font-size: 24px">
+                How to Get The Best Volunteering Experience
+              </h2>
+
+              <p class="leading-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                accusantium doloremque laudantium, totam rem aperiam....
+              </p>
+
+              <a
+                href="./blog.html"
+                class="text-reset"
+                style="align-self: start"
+              >
+                Read more...
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- social icons section -->
+      <section class="text-center py-5">
+        <div class="font-weight-bold mb-3 mt-5">Join Our Online Community</div>
+
+        <div class="d-flex align-items-center justify-content-center mb-5">
+          <a href="#" class="mr-5">
+            <img
+              src="./assets/images/home/linkedin-icon.svg"
+              alt="linked-in"
+              class="social-icons__icon"
+            />
+          </a>
+
+          <a href="#" class="mr-5">
+            <img
+              src="./assets/images/home/instagram-icon.svg"
+              alt="instagram"
+              class="social-icons__icon"
+            />
+          </a>
+
+          <a href="#" class="mr-5">
+            <img
+              src="./assets/images/home/facebook-icon.svg"
+              alt="facebook"
+              class="social-icons__icon"
+            />
+          </a>
+
+          <a href="#">
+            <img
+              src="./assets/images/home/twitter-icon.svg"
+              alt="twitter"
+              class="social-icons__icon"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- newsletter -->
+      <section class="text-center pb-5">
+        <div class="mb-3 font-weight-bold">Suscribe to our newsletter</div>
+
+        <div class="d-flex align-items-center justify-content-center">
+          <input
+            type="text"
+            placeholder="johndoe@email.com"
+            class="newsletter__form-element newsletter__form-element-input px-3"
+          />
+
+          <button
+            class="newsletter__form-element px-4 bg-leadops-primary font-weight-medium"
+          >
+            Subscribe
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer py-5 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-9 d-flex flex-column">
+            <a href="/">
+              <img
+                src="./assets/images/logo.svg"
+                alt="logo"
+                class="footer__logo"
+                style="align-self: start"
+              />
+            </a>
+
+            <small class="mt-5 text-xs text-white">©2020 Leadops</small>
+          </div>
+
+          <div class="col-sm-3 d-flex align-items-center text-sm">
+            <a href="./about.html" class="text-white px-3">About</a>
+            <a href="./contact.html" class="text-white px-3">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
