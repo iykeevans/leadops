@@ -86,6 +86,9 @@
     color: white;
     text-decoration: none;
 }
+.foot-a-tags a:hover{
+    color: gold;
+}
 .copyright{
     position: absolute;
     left: 110px;
