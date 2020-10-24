@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 100%;
+    font-family:  "DM Sans", sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 77px;
+    display: flex;
+    background-color: #fafafa;
+}
+#navbar-logo{
+    margin-top: 15px;
+    margin-left: 126px;
+   }
+.menu-sm{
+    padding-top: 20px;
+    width: 45%;
+    margin-left:25%;
+}
+.menu-sm a{
+    margin-left: 12%;
+    color: black;
+    text-decoration: none;
+}
+.menu-sm a:hover{
+    color: gold;
+}
+#navbar-searchicon{
+    width: 30px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+#navbar-searchicon:hover{
+    cursor: pointer;
+    background-color: #eeeded;
+}
+#navbar-searchicon img{
+    width: 100%;
+    height: 100%;
+}
+.callh1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #504f4f;
+    text-align: center;
+    margin-top: 90px;
+}
+.row{
+    height: auto;
+}
+.box .head{
+    font-size: 16px;
+    font-weight: 700;
+    color: #504f4f;
+}
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #504f4f;
+    text-align: justify;
+}.box{
+    width:80%;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.picture-of-kids{
+    width: 80%;
+    height: 350px;
+    margin-left: 24%;
+
+}
+.picture-of-kids img{
+    width: 100%;
+    height: 100%;
+}
+.deadline{
+    margin-left: 24%;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+button{
+    width: 195px;
+    height: 66px;
+    margin-left: 24%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #191919;
+    outline: none;border: none;
+    background-color: #ffcc00;
+}
+.foot{
+    padding-top: 48px;
+    height: 223px;
+    background-color: #191919;
+}
+.foot-logo{
+    margin-left: 110px;
+    height: 71px;
+}
+.foot-a-tags{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.foot-a-tags a{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+.foot-a-tags a:hover{
+    color: gold;
+}
+.copyright{
+    position: absolute;
+    left: 110px;
+    top: 1720px;
+}
