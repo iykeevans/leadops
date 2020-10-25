@@ -46,52 +46,56 @@
     width: 100%;
     height: 100%;
 }
+.callh1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #504f4f;
+    text-align: center;
+    margin-top: 90px;
+}
 .row{
-    margin-top: 96px;
-    margin-bottom: 100px;
-}
-.row-h3{
-    color: #a8a8a8;
-    font-weight: 700;
-    font-size: 40px;
-    
-}
-.row-p{
-    font-weight: 700;
-    font-size: 16px;
-    padding-bottom: 60px;
-}
-.input-box{
-    width: 442px;
     height: auto;
-    margin: auto;
-    margin-bottom: 40px;
 }
-input{
-    width: 442px;
-    height: 50px;
-    display: block;
-    margin: auto;
-    outline: none;
-    border: 1px solid #CCCCCC;
-    border-radius: 10px;
-    background-color: #eeeeee;
-}
-label{
+.box .head{
+    font-size: 16px;
+    font-weight: 700;
     color: #504f4f;
 }
-textarea{
-    background-color: #eeeeee;
-    border-radius: 10px;
-    border: 1px solid #CCCCCC;
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #504f4f;
+    text-align: justify;
+}.box{
+    width:80%;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
-.btn{
+.picture-of-kids{
+    width: 80%;
+    height: 350px;
+    margin-left: 24%;
+
+}
+.picture-of-kids img{
+    width: 100%;
+    height: 100%;
+}
+.deadline{
+    margin-left: 24%;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+button{
     width: 195px;
     height: 66px;
-    margin-left: 43%;
+    margin-left: 24%;
     font-size: 14px;
     font-weight: 700;
     color: #191919;
+    outline: none;border: none;
     background-color: #ffcc00;
 }
 .foot{
@@ -118,7 +122,5 @@ textarea{
 .copyright{
     position: absolute;
     left: 110px;
-    top: 1320px;
+    top: 1720px;
 }
-
-
